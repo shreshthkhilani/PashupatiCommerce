@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$('.up').hide();
 
-	var baseurl = '/PashupatiCommerce';
+	var baseurl = '';
 
 	$('button#biggetintouch').click(function () {
 		window.location = baseurl + '/contact/';

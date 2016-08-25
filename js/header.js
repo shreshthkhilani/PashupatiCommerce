@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	var baseurl = '/PashupatiCommerce';
+	var baseurl = '';
 
 	$('button#contactbtn').click(function () {
 		window.location = baseurl + '/contact/';
