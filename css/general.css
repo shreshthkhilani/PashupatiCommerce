@@ -37,6 +37,51 @@ h1, h2, h3, h4, h5, p {
 	background-image: url('/images/bg/3.jpeg');
 }
 
+.bgimg4 {
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('/images/bg/11.jpeg');
+}
+
+.bgimg5 {
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('/images/bg/5.jpg');
+}
+
+.bgimg6 {
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('/images/bg/6.jpg');
+}
+
+.bgimg7 {
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('/images/bg/7.jpg');
+}
+
+.bgimg8 {
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('/images/bg/8.jpeg');
+}
+
 .bgimg9 {
 	width: 100%;
 	height: 60%;
@@ -44,6 +89,15 @@ h1, h2, h3, h4, h5, p {
 	background-repeat: none;
 	background-size: cover;
 	background-image: url('https://static.pexels.com/photos/8804/city-lights-sony-balcony.jpg');
+}
+
+.bgimg10 {
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('/images/bg/9.jpg');
 }
 
 .page100 {
@@ -62,7 +116,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 #partners {
-	background-color: #2e3b47;
+	background-color: #2f343b;
 	color: #fff;
 }
 
@@ -87,7 +141,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .orangetext {
-	color: #f48220;
+	color: #c77966;
 }
 
 #header {
@@ -111,8 +165,8 @@ h1, h2, h3, h4, h5, p {
 
 /* BUTTONS */
 
-/* This is the orange #f48220 */
-/* This is the navy #2e3b47 */
+/* This is the orange #c77966 */
+/* This is the navy #2f343b */
 
 .linkbtn {
 	background-color: #fff;
@@ -120,17 +174,17 @@ h1, h2, h3, h4, h5, p {
 	padding-right: 16px;
 	border-radius: 0px;
 	height: 36px;
-	color: #2e3b47;
-	border: 1px solid #2e3b47;
+	color: #2f343b;
+	border: 1px solid #2f343b;
 }
 
 .linkbtn:hover {
-	background-color: #2e3b47 !important;
+	background-color: #2f343b !important;
 	color: #fff !important;
 }
 
 .linkbtnnow {
-	background-color: #2e3b47 !important;
+	background-color: #2f343b !important;
 	color: #fff !important;
 }
 
@@ -219,7 +273,7 @@ button:focus {
 
 a > .orangetext {
 	text-decoration: underline;
-	color: #f48220;;
+	color: #c77966;;
 }
 
 a:hover {
@@ -238,14 +292,14 @@ a:hover {
 	height: 12px;
 	border-radius: 12px;
 	margin-bottom: 6px;
-	border: 1px solid #f48220;
+	border: 1px solid #c77966;
 	background-color: #fff;
 	cursor: pointer;
 	
 }
 
 .fullcircle {
-	background-color: #f48220 !important;
+	background-color: #c77966 !important;
 }
 
 .leftcorner {
@@ -279,7 +333,7 @@ a:hover {
 
 .lll {
 	/*background-attachment: scroll;*/
-	background-image: url('/images/graphics/lineduplyinglinks2.png');
+	background-image: url('/images/graphics/pcplpg2.png');
 	max-width: 940px;
 	background-position: 100% 100%;
 	margin: 0 auto;
@@ -327,4 +381,14 @@ a:hover {
 .socialimg {
 	width: 32px;
 	margin-right: 16px;
+}
+
+.footerlink, .footerlink:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footerlink:hover {
+	color: #fff !important;
+	text-decoration: none !important;
 }

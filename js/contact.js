@@ -1,6 +1,27 @@
 $(document).ready(function () {
 	$('.up').hide();
 
+	$('.requiredinput').keyup(function() {
+	  var empty = false;
+	  $('.requiredinput').each(function() {
+	    if ($(this).val() === '') {
+	      empty = true;
+	    }
+	  });
+
+	  if (empty) {
+	    $('#sendmessage').attr('disabled', 'disabled'); 
+	    $('#infospan').show();
+	  } else {
+	    $('#sendmessage').removeAttr('disabled');
+	    $('#infospan').hide();
+	  }
+	});
+
+	$('input:radio').click(function() {
+    $('#subjectinput').attr('value','[PCPL Website Contact Form] ' + this.value);
+  });
+
 	var pagelist = ['#top', '#contactform'];
 
 	$(window).scroll(function () {
